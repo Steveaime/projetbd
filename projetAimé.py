@@ -37,7 +37,7 @@ def LectureMessage(file): # fonction permettant de lire le message dans le fiche
         print("is empty")    
     texts = RemoveAcents(text.upper())
     move = re.sub(r"\s+", "" , texts)
-    print('\n message IN : \t' + move )
+    #print('\n message IN : \t' + move )
     fs.close()
     return str(move)
     
